@@ -24,6 +24,39 @@
     bottom: 45px;
     z-index: 99;
 }
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.product-container {
+    display: flex;
+    gap: 20px;
+}
+.product {
+    flex: 1;
+    background-color: #f9f9f9;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+.product img {
+    max-width: 100%;
+    height: auto;
+}
+.product h3 {
+    margin: 10px 0 0;
+}
+.product p {
+    margin: 5px 0;
+    color: #555;
+}
+.product icon {
+    font-size: 50px;
+    color: #333;
+    margin-bottom: 10px;
+}
 
 
 /*** Spinner ***/
